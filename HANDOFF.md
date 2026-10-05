@@ -8,7 +8,7 @@ Read this file fully before you do anything. The owner speaks simple Egyptian Ar
 - This repo (jox-eg) holds two things:
   - **Product photos**, in the category folders (Men_s_Shoes, Sneakers, Wallet, …). The store loads every product photo from
     `https://cdn.jsdelivr.net/gh/imahmoudnabil/jox-eg@main/<path>`. These URLs are saved inside every product **and inside colour-variant swatches**.
-  - `products-editor/`: the team's product-editor page. This is the old git copy. The newer live copy runs at https://marktrack.agency/customer/jox/products/ on Hostinger, and it saves edits through an `api.php` next to it.
+  - The team product-editor page lives in a separate repo (jox-products) and runs live at https://marktrack.agency/customer/jox/products/ on Hostinger, saving edits through an `api.php` next to it. Do NOT copy it into this public repo.
 
 ## Task 1: move the repo to the enterprise organization, without breaking a single photo
 1. Ask the owner **before** the move: will the repo stay **Public** in the new org? jsDelivr can only serve photos from a public repo. If the repo goes private, every product photo on the store disappears.
