@@ -26,6 +26,8 @@ Read this file fully before you do anything. The owner speaks simple Egyptian Ar
   - Tap the products → «دول منتج واحد» saves a group. Saved groups show a badge, and each group has a delete button.
   - **Another colour of the same model is NOT the same product.** Leave it as it is.
 - Save the groups on the same server as the editor (api.php), so the team continues from where they stopped.
+- The matching tab lives on the marktrack link only (Hostinger). The temporary claude.ai artifact page is no longer used.
+- **Never use GitHub Actions.** The owner does not want to spend Actions minutes. Update the files on Hostinger through File Manager or through Hostinger's own Git (hPanel → Git). Never add `.github/workflows` without asking the owner.
 - Before you build: get the real `api.php` from Hostinger, and put the live index.html into this repo first so we have a backup.
 - Security: the page password and the write key both sit in the page's client-side code, and the repo is public. Move the password check and the key to the server side (api.php) before you push the editor code.
 
